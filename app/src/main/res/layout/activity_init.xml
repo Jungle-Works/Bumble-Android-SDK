@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <Switch
+        android:id="@+id/switch1"
+        android:text="Manager SDK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/fugu_margin_10"
+        android:drawablePadding="@dimen/fugu_padding_10"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/switch1"
+        android:layout_marginTop="@dimen/fugu_margin_6"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        app:cardElevation="@dimen/fugu_elevation_4"
+        app:cardBackgroundColor="@color/fugu_white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enable payment"
+                android:padding="@dimen/fugu_padding_10"/>
+
+            <Switch
+                android:id="@+id/payment_switch"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/fugu_margin_20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="30dp"
+        android:minWidth="120dp"
+        android:layout_below="@+id/payment"
+
+        android:layout_marginLeft="@dimen/fugu_padding_20"
+        android:layout_marginRight="@dimen/fugu_padding_20"
+        android:layout_marginTop="@dimen/fugu_margin_10"
+        android:layout_centerHorizontal="true"
+        android:prompt="@string/spinner_title"/>
+
+
+    <Button
+        android:id="@+id/init"
+        android:text="Init"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/fugu_margin_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:paddingLeft="@dimen/fugu_padding_10"
+        android:paddingRight="@dimen/fugu_padding_10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/spinner"
+        android:layout_above="@+id/init">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/layout_manager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:paddingLeft="@dimen/fugu_padding_20"
+                android:paddingRight="@dimen/fugu_padding_20"
+                android:layout_marginTop="@dimen/fugu_margin_10">
+
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/payment"
+                    android:layout_margin="@dimen/fugu_margin_6"
+                    app:cardElevation="@dimen/fugu_elevation_4"
+                    app:cardBackgroundColor="@color/fugu_white">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Enable broadcast"
+                            android:padding="@dimen/fugu_padding_10"/>
+
+                        <Switch
+                            android:id="@+id/broadcast_switch"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="@dimen/fugu_margin_20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/payment"
+                    android:layout_margin="@dimen/fugu_margin_6"
+                    app:cardElevation="@dimen/fugu_elevation_4"
+                    app:cardBackgroundColor="@color/fugu_white">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="IsTookan Login"
+                            android:padding="@dimen/fugu_padding_10"/>
+
+                        <Switch
+                            android:id="@+id/tooken_switch"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="@dimen/fugu_margin_20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <EditText
+                    android:id="@+id/et_manager_app_type"
+                    android:hint="App type(Default 1)"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/et_manager_email"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/et_password"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/et_manager_token"
+                    android:hint="Auth token(optional)"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:text="1d2d6ef9b0d8589fd1cb72b0c776472a"
+                    android:singleLine="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_sdk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/announcement"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/fugu_margin_6"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginLeft="50dp"
+                    app:cardElevation="@dimen/fugu_elevation_4"
+                    app:cardBackgroundColor="@color/fugu_white">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Enable announcement"
+                            android:padding="@dimen/fugu_padding_10"/>
+
+                        <Switch
+                            android:id="@+id/announcement_switch"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="@dimen/fugu_margin_20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <EditText
+                    android:id="@+id/et_app_type"
+                    android:hint="App type(Default 1)"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:text="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/et_app_secret_key"
+                    android:maxLines="1"
+                    android:hint="12a06be0ea82ad39149aa943907d3f6b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/et_user_unique_key"
+                    android:hint="User unique key (qwerty)"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6758179" />
+
+
+                <EditText
+                    android:id="@+id/et_user_name"
+                    android:hint="User name(optional)"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:text="test"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/et_email"
+                    android:hint="User email(optional)"
+                    android:maxLines="1"
+                    android:text="test@yopmail.com"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/et_phone"
+                    android:hint="User Phome number(optional)"
+                    android:maxLines="1"
+                    android:text="2121212121"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/et_lang"
+                    android:hint="Lang"
+                    android:maxLines="1"
+                    android:text="en"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/et_tags"
+                    android:hint="Tags(, sprated)"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/et_image_path"
+                    android:hint="Image Path(optional)"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/et_bot_id"
+                    android:visibility="gone"
+                    android:hint="Bot GroupID"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

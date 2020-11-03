@@ -1,0 +1,13 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="@color/special_bg"/>
+
+    <corners android:bottomLeftRadius="5dp"
+        android:bottomRightRadius="5dp"
+        android:topRightRadius="5dp"/>
+
+    <stroke android:width="@dimen/fugu_dp_1"
+        android:color="@color/start_color"></stroke>
+
+</shape>

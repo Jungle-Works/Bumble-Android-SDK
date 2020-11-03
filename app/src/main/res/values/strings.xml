@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Bumble SDK</string>
+
+    <string name="log_fcm_message_id">"FCM Message Id: "</string>
+    <string name="log_fcm_notification_message">"FCM Notification Message: "</string>
+    <string name="log_fcm_data">"FCM Data Message: "</string>
+    <string name="log_fcm_data_message">"FCM Data Message:(TA)G "</string>
+
+    <string name="hippo_server_disconnect">Test Server disconnected</string>
+    <string name="hippo_no_network_connected">Test No internet connected</string>
+    <string name="hippo_server_connecting">Test Server connecting&#8230; </string>
+    <string name="hippo_fetching_messages">Test Updating new messages</string>
+    <string name="spinner_title">Select Server</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_details">Details</string>
+
+    <string name="app_guarantee">Test App Guarantee</string>
+</resources>

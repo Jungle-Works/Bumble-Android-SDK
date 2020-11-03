@@ -1,0 +1,458 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="FuguTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/hippoColorPrimaryDark</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!--Progress Dialog styles-->
+    <declare-styleable name="ProgressWheel">
+        <attr name="matProg_progressIndeterminate" format="boolean" />
+        <attr name="matProg_barColor" format="color" />
+        <attr name="matProg_rimColor" format="color" />
+        <attr name="matProg_rimWidth" format="dimension" />
+        <attr name="matProg_spinSpeed" format="float" />
+        <attr name="matProg_barSpinCycleTime" format="integer" />
+        <attr name="matProg_circleRadius" format="dimension" />
+        <attr name="matProg_fillRadius" format="boolean" />
+        <attr name="matProg_barWidth" format="dimension" />
+        <attr name="matProg_linearProgress" format="boolean" />
+    </declare-styleable>
+
+    <style name="Theme.AppCompat.Translucent">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+
+    <!-- Dialog  application theme. -->
+    <style name="FuguDialogTheme" parent="Theme.AppCompat.Translucent">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/black</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+        <item name="colorAccent">@android:color/black</item>
+        <item name="android:windowIsFloating">true</item>
+
+    </style>
+
+    <!-- beat animation styles -->
+    <style name="AVLoadingIndicatorView">
+        <item name="minWidth">30dp</item>
+        <item name="maxWidth">30dp</item>
+        <item name="minHeight">30dp</item>
+        <item name="maxHeight">30dp</item>
+        <item name="indicatorName">com.hippo.utils.beatAnimation.BallPulseIndicator</item>
+    </style>
+
+    <style name="AVLoadingIndicatorView.Large">
+        <item name="minWidth">76dip</item>
+        <item name="maxWidth">76dip</item>
+        <item name="minHeight">76dip</item>
+        <item name="maxHeight">76dip</item>
+        <item name="indicatorName">com.hippo.utils.beatAnimation.BallPulseIndicator</item>
+    </style>t
+
+    <style name="AVLoadingIndicatorView.Small">
+        <item name="minWidth">24dip</item>
+        <item name="maxWidth">24dip</item>
+        <item name="minHeight">24dip</item>
+        <item name="maxHeight">24dip</item>
+        <item name="indicatorName">com.hippo.utils.beatAnimation.BallPulseIndicator</item>
+    </style>
+
+    <style name="text_rtl">
+        <item name="android:textAlignment" tools:targetApi="jelly_bean_mr1">viewStart</item>
+        <item name="android:gravity">start</item>
+    </style>
+
+    <style name="agent_options_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/fugu_margin_35</item>
+        <item name="android:background">@color/hippo_tag_color</item>
+        <item name="android:paddingLeft">@dimen/fugu_margin_15</item>
+        <item name="android:paddingTop">@dimen/fugu_margin_15</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/fugu_theme_color_primary</item>
+        <item name="android:textSize">@dimen/fugu_text_size_small</item>
+    </style>
+
+    <style name="tvCustomerProfile">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/fugu_size_57</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+        <item name="android:drawablePadding">@dimen/fugu_padding_5</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/fugu_padding_10</item>
+        <item name="android:textColor">@color/fugu_text_color_primary</item>
+        <item name="android:textSize">@dimen/fugu_text_size_large</item>
+    </style>
+
+    <style name="tvProfileRight">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/fugu_text_size_large</item>
+        <item name="android:textColor">@color/hippo_black</item>
+        <item name="android:layout_marginLeft">@dimen/fugu_margin_45</item>
+    </style>
+
+    <style name="FuguAppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/fugu_theme_color_primary</item>
+        <item name="android:textColorPrimary">@color/fugu_text_color_primary</item>
+        <item name="android:background">@color/hippo_white</item>
+    </style>
+
+    <style name="myDialog" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowTitleStyle">@style/myDialogTitle</item>
+    </style>
+
+    <style name="myDialogTitle" parent="@android:style/TextAppearance.DialogWindowTitle">
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="dialog" parent="Base.ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="android:windowTitleStyle">@style/myDialogTitle</item>
+    </style>
+
+    <style name="hippo">
+        <item name="android:textStyle"></item>
+    </style>
+
+
+
+    <style name="hippo.text" parent="hippo">
+        <item name="android:textSize">@dimen/fugu_text_size_intermediate</item>
+        <item name="android:layout_marginLeft">@dimen/fugu_margin_10</item>
+        <item name="android:layout_marginRight">@dimen/fugu_margin_10</item>
+        <item name="android:layout_marginBottom">@dimen/fugu_margin_5</item>
+        <item name="android:layout_marginTop">@dimen/fugu_margin_5</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="hippo.subtitle" parent="hippo.text">
+        <item name="android:textSize">@dimen/fugu_text_size_large</item>
+        <item name="android:textColor">@color/fugu_support_text</item>
+
+    </style>
+
+    <style name="primary_button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/hippo.text</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/fugu_text_size_normal</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="hippo.Edittext" parent="hippo">
+        <item name="android:textSize">@dimen/fugu_text_size_medium</item>
+        <item name="android:layout_marginLeft">@dimen/fugu_margin_10</item>
+        <item name="android:layout_marginRight">@dimen/fugu_margin_10</item>
+        <item name="android:layout_marginBottom">@dimen/fugu_margin_5</item>
+        <item name="android:layout_marginTop">@dimen/fugu_margin_5</item>
+        <item name="android:textColorHint">@color/fugu_type_message_hint</item>
+        <item name="android:textColor">@color/fugu_type_message_text</item>
+    </style>
+
+    <style name="hippo.rating" parent="hippo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/fugu_text_size_intermediate</item>
+        <item name="android:layout_marginBottom">@dimen/fugu_margin_5</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="rating_button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/hippo.text</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/fugu_text_size_normal</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+
+    <style name="lead_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/fugu_margin_4</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColor">@color/fugu_text_color_primary</item>
+        <item name="android:paddingLeft">@dimen/fugu_margin_8</item>
+        <item name="android:textSize">@dimen/hippo_text_normal</item>
+    </style>
+
+
+
+    <style name="vw_FilePickerTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/fugu_theme_color_primary</item>
+        <item name="colorPrimaryDark">@color/fugu_theme_color_primary_pressed</item>
+        <item name="colorAccent">@color/fugu_theme_color_secondary</item>
+
+        <!--ToolBar -->
+        <item name="actionOverflowMenuStyle">@style/vw_OverflowMenuStyle</item>
+        <!-- RecyclerView -->
+        <item name="android:listDivider">@drawable/vw_divider_rv</item>
+    </style>
+
+    <style name="vw_OverflowMenuStyle" parent="@style/Widget.AppCompat.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>
+        <item name="android:popupBackground">#000000</item>
+        <item name="android:dropDownVerticalOffset">54dp</item>
+        <item name="android:dropDownHorizontalOffset">0dp</item>
+    </style>
+
+    <style name="vw_ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <declare-styleable name="MaxHeightLayout">
+        <attr name="mhl_HeightRatio" format="reference|float" />
+        <attr name="mhl_HeightDimen" format="reference|dimension" />
+    </declare-styleable>
+
+    <style name="CustomDialog">
+        <item name="android:windowEnterAnimation">@anim/hippo_dialog_scale_in</item>
+        <item name="android:windowExitAnimation">@anim/hippo_dialog_scale_out</item>
+    </style>
+
+    <style name="user_image">
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+
+    <style name="tvfontBold">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="tvfont">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="tvfontTitle">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="tvfontTime">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+
+    <style name="Theme.AppCompat.Translucent1" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:background">#0000</item> <!-- Or any transparency or color you need -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+
+    <style name="FullScreenDialogStyle" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <!-- Set this to true if you want Full Screen without status bar -->
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">false</item>
+
+        <!-- This is important! Don't forget to set window background -->
+        <item name="android:windowBackground">@color/fugu_white</item>
+
+    </style>
+
+
+    <declare-styleable name="CustomRatingBar">
+        <attr name="maxStars" format="integer"/>
+        <attr name="stars" format="float"/>
+        <attr name="starOff" format="reference|integer"/>
+        <attr name="starOn" format="reference|integer"/>
+        <attr name="starHalf" format="reference|integer"/>
+        <attr name="starPadding" format="dimension"/>
+        <attr name="belowTextSize" format="dimension"/>
+        <attr name="belowTextColor" format="color"/>
+        <attr name="compoundDrawablePadding" format="dimension"/>
+        <attr name="viewMargin" format="dimension"/>
+        <attr name="viewMinWidth" format="dimension"/>
+        <attr name="onlyForDisplay" format="boolean"/>
+        <attr name="halfStars" format="boolean"/>
+        <attr name="animate" format="boolean"/>
+        <attr name="displayText" format="boolean"/>
+        <attr name="singleColor" format="boolean"/>
+        <attr name="starColor" format="color"/>
+        <attr name="noStarColor" format="color"/>
+    </declare-styleable>
+
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/hippo_white</item>
+        <item name="colorControlActivated">@color/fugu_green</item>
+
+    </style>
+
+    <style name="AppTheme.StatusBarTransparent" parent="AppTheme" >
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/fugu_theme_color_primary</item>
+        <item name="colorPrimaryDark">@color/fugu_theme_color_primary_dark</item>
+        <item name="colorAccent">@color/hippoColorPrimaryDark</item>
+        <item name="colorControlActivated">@color/hippoColorPrimaryDark</item>
+        <item name="android:actionMenuTextColor">@color/hippoColorPrimaryDark</item>
+    </style>
+
+    <style name="Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="TextViewBold">
+        <!--<item name="fontPath">fonts/TitilliumWeb-SemiBold.ttf</item>-->
+        <item name="fontPath">fonts/ProximaNova-Sbold.ttf</item>
+
+    </style>
+
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/MyCustomTextAppearance</item>
+    </style>
+
+    <style name="MyCustomTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_15ssp</item>
+    </style>
+
+
+    <style name="fuguCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/hippo_tab_indicator_color</item>
+        <item name="tabIndicatorHeight">@dimen/_2sdp</item>
+        <item name="tabPaddingStart">@dimen/_10sdp</item>
+        <item name="tabPaddingEnd">@dimen/_10sdp</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:dividerPadding">@dimen/_3sdp</item>
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:divider">@color/hippo_tab_indicator_color</item>
+        <item name="tabBackground">@color/hippo_white</item>
+        <item name="android:textColor">@color/fugu_secondary_text_msg_you</item>
+        <item name="tabSelectedTextColor">@color/fugu_text_color_primary</item>
+        <item name="tabTextAppearance">@style/MyCustomTextAppearance</item>
+    </style>
+
+    <!--<style name="fuguCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/hippo_tab_indicator_color</item>
+        <item name="tabIndicatorHeight">@dimen/_2sdp</item>
+        <item name="tabPaddingStart">@dimen/_10sdp</item>
+        <item name="tabPaddingEnd">@dimen/_10sdp</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:dividerPadding">@dimen/_3sdp</item>
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:textColor">@color/fugu_secondary_text_msg_you</item>
+        <item name="android:divider">@color/hippo_tab_indicator_color</item>
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabSelectedTextColor">@color/fugu_text_color_primary</item>
+        <item name="tabTextAppearance">@style/MyCustomTextAppearance</item>
+    </style>-->
+
+
+
+    <style name="hippo_regular_text"  parent="android:TextAppearance">
+        <!--<item name="fontPath">fonts/TitilliumWeb-Regular.ttf</item>-->
+        <item name="fontPath">fonts/ProximaNova-Reg.ttf</item>
+
+    </style>
+
+    <style name="hippo_semibold_text"  parent="android:TextAppearance">
+        <!--<item name="fontPath">fonts/TitilliumWeb-SemiBold.ttf</item>-->
+        <item name="fontPath">fonts/ProximaNova-Sbold.ttf</item>
+
+    </style>
+
+
+
+    <style name="CustomTextAppearance" parent="hippo_regular_text">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="CustomTextAppearance.Semibold" parent="hippo_semibold_text">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CustomTextAppearance.TitilliumWeb" parent="CustomTextAppearance">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="CustomTextAppearance.TitilliumWebSemiBold" parent="hippo_semibold_text">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="primaryText" parent="CustomTextAppearance">
+        <item name="android:textSize">@dimen/_14ssp</item>
+    </style>
+
+    <style name="title" parent="hippo_semibold_text">
+        <item name="android:textSize">@dimen/fugu_text_size_medium</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="Profile.Title" parent="title">
+        <item name="android:textSize">@dimen/fugu_text_size_intermediate</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/fugu_dp_40</item>
+        <item name="android:paddingStart">@dimen/hippo_margin_16</item>
+    </style>
+
+    <style name="receivedText" parent="primaryText">
+        <item name="android:textColor">@color/fugu_white</item>
+        <item name="android:textColorLink">@color/fugu_text_color_primary</item>
+        <!--<item name="android:lineSpacingExtra">@dimen/lineSpacingExtra</item>-->
+    </style>
+
+    <style name="receivedText.time" parent="primaryText">
+        <item name="android:textColor">@color/fugu_white_70</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+    </style>
+
+    <style name="sentText" parent="primaryText">
+        <item name="android:textColor">@color/fugu_text_color_primary</item>
+        <item name="android:textColorLink">@color/fugu_text_color_primary</item>
+        <!--<item name="android:lineSpacingExtra">@dimen/lineSpacingExtra</item>-->
+    </style>
+
+    <style name="sentText.time" parent="primaryText">
+        <item name="android:textColor">@color/fugu_secondary_text_msg_you</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+    </style>
+
+    <style name="AppBottomSheetDialogTheme"
+        parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle"
+        parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/rounded_dialog</item>
+    </style>
+
+    <style name="TransparentPopup" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+
+</resources>

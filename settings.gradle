@@ -1,0 +1,3 @@
+include ':BumbleSdk'
+include ':app'
+rootProject.name = "Bumble"

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hippo.utils.hippoHeaderBehavior.HippoHeaderView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fugu_transparent"
+        android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/name"
+            style="@style/TextViewBold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="@dimen/header_view_start_margin_left"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/header_view_start_text_size" />
+
+    <RelativeLayout
+            android:id="@+id/starLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/header_view_start_margin_left"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+        <RatingBar
+                android:id="@+id/ratingBar2"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="1"
+                android:rating="1"
+                android:stepSize="0.1"
+                android:theme="@style/RatingBar" />
+
+        <TextView
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/ratingBar2"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</com.hippo.utils.hippoHeaderBehavior.HippoHeaderView>

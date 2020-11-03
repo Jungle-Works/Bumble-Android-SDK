@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                   android:id="@+id/my_toolbar"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="?attr/actionBarSize"
+                                   android:background="?attr/colorPrimary"
+                                   app:contentInsetEnd="0dp"
+                                   app:contentInsetLeft="0dp"
+                                   app:contentInsetRight="0dp"
+                                   app:contentInsetStart="0dp"
+                                   app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/icon_toolbar_left"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+
+            android:background="?attr/selectableItemBackground" />
+
+
+        <TextView
+            android:id="@+id/tv_toolbar_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textSize="@dimen/fugu_text_size_very_large" />
+
+        <LinearLayout
+            android:id="@+id/llBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/fugu_margin_10"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/ivVideoView"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fugu_margin_10"
+                android:onClick="onClick"
+                android:padding="@dimen/fugu_margin_5"
+                android:src="@drawable/hippo_ic_videocam"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivAudioView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/fugu_margin_10"
+                android:onClick="onClick"
+                android:padding="@dimen/fugu_margin_5"
+                android:src="@drawable/hippo_ic_call_black"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.appcompat.widget.Toolbar>

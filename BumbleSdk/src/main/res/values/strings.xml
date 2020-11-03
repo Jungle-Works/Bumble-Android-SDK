@@ -1,0 +1,407 @@
+<resources>
+    <string name="hippo_space">&#160;</string>
+    <string name="fugu_empty" translatable="false"></string>
+    <string name="hippo_activity_image_trans">activity_image_transition</string>
+    <string name="app_name">Hippo</string>
+    <string name="hippo_text">Hippo</string>
+
+    <string name="fugu_unable_to_connect_internet">Unable to connect to the internet</string>
+    <string name="fugu_no_internet_connection_retry">No Internet Connection \nTap to retry</string>
+    <string name="hippo_something_wrong">Something went wrong \nTap to retry</string>
+    <string name="fugu_new_conversation">New Conversation</string>
+    <string name="fugu_loading">Loading...</string>
+    <string name="fugu_powered_by">Runs on </string>
+    <string name="fugu_text">Hippo</string>
+    <string name="fugu_no_gallery">Gallery not found in this phone.</string>
+    <string name="fugu_camera">Camera</string>
+    <string name="fugu_gallery">Gallery</string>
+    <string name="fugu_document">Documents</string>
+    <string name="fugu_payment">Payment</string>
+    <string name="fugu_audio">Audio</string>
+    <string name="fugu_pdf">Document</string>
+    <string name="fugu_retry">Retry</string>
+    <string name="fugu_attachment">Attachment Image</string>
+    <string name="fugu_send_message"> Send a message...</string>
+    <string name="fugu_cancel">Cancel</string>
+    <string name="fugu_ok">OK</string>
+    <string name="fugu_file_not_found">Sorry this file is no longer available on your device</string>
+    <string name="fugu_support">Support</string>
+    <string name="hippo_could_not_send_message">Could not send your message</string>
+    <string name="hippo_tap_to_retry">Tap to <u>Retry</u>&#160;</string>
+    <string name="hippo_no_internet_cancel">| <u>Cancel</u></string>
+    <string name="fugu_not_connected_to_internet">Not connected to Internet</string>
+    <string name="fugu_connecting">Connecting...</string>
+    <string name="fugu_connected">Connected</string>
+    <string name="fugu_no_conversation_found">No conversations found</string>
+    <string name="fugu_no_conversation">We couldn’t find any\nconversations in this inbox</string>
+    <string name="fugu_tap_to_view"><i>Tap to view</i></string>
+    <string name="fugu_agent_actions">ACTIONS</string>
+    <string name="fugu_show_more">SHOW MORE...</string>
+    <string name="fugu_leave_comment">Leave a comment</string>
+    <string name="fugu_no_data_found">No data found</string>
+    <string name="hippo_message_sucessfully">Your request has been submitted successfully</string>
+
+    <string name="hippo_smile_rating_terrible">Terrible</string>
+    <string name="hippo_smile_rating_bad">Bad</string>
+    <string name="hippo_smile_rating_okay">Okay</string>
+    <string name="hippo_smile_rating_good">Good</string>
+    <string name="hippo_smile_rating_great">Great</string>
+    <string name="hippo_search">Search&#8230;</string>
+    <string name="hippo_error_no_countries_found">No Countries Found! Did you call build()</string>
+    <string name="hippo_country_picker_header">Select country</string>
+    <string name="call_again">Call Again</string>
+    <string name="hippo_select_string">Select</string>
+    <string name="hippo_rationale_ask">This app may not work correctly without the requested permissions.</string>
+    <string name="hippo_rationale_ask_again">
+        This app may not work correctly without the requested permissions.
+        Open the app settings screen to modify app permissions.
+    </string>
+    <string name="title_settings_dialog">Permissions Required</string>
+    <string name="vw_confirm">Done</string>
+    <string name="vw_rationale_storage">Need Reading Storage Permission for Picking Files</string>
+    <string name="vw_up_to_max">Already up to max</string>
+    <string name="vw_no_photo_app">No photo App in this phone!</string>
+    <string name="vw_all">All</string>
+    <string name="hippo_browse_other_doc">Browse other docs&#8230;</string>
+    <string name="hippo_large_file">File size cannot be greater than</string>
+    <string name="hippo_attachment_file">Attachment File</string>
+    <string name="no_handler">This file type is not supported</string>
+    <string name="uploading">Uploading</string>
+    <string name="uploading_in_progress">uploading in progress</string>
+    <string name="unknown_message">This message doesn\'t support in your current app</string>
+    <string name="hippo_broadcast_detail">Broadcast Details</string>
+    <string name="hippo_recipients">Recipients</string>
+    <string name="hippo_add_an_option">+ Add an option</string>
+    <string name="hippo_request_payment">Request payment</string>
+    <string name="hippo_item_price">Enter Price</string>
+    <string name="hippo_item_description">Enter Description</string>
+    <string name="hippo_currency">Currency</string>
+    <string name="fugu_title">Title</string>
+    <string name="hippo_enter_title">Enter Title</string>
+    <string name="hippo_title_item_price">Price</string>
+    <string name="hippo_title_item_description">Description</string>
+    <string name="hippo_total_count">Total price :</string>
+    <string name="hippo_empty_transaction_id">TransactionID can\'t be empty</string>
+    <string name="hippo_empty_other_user_unique_keys">Other user unique keys array can\'t be empty</string>
+    <string name="talk_to">Create Conversation</string>
+    <string name="hippo_history">Conversations</string>
+    <string name="logout">Logout</string>
+    <string name="hippo_something_wentwrong">Something went wrong \nPlease try again later</string>
+    <string name="app_guarantee">Guarantee</string>
+    <string name="hippo_read_more"><u>Read more</u></string>
+    <string name="hippo_read_less"><u>Read less</u></string>
+    <string name="error_msg_yellow_bar">"Slow Internet connection."</string>
+    <string name="hippo_storage_permission">Please grant storage permission</string>
+    <string name="hippo_netbanking">Net Banking</string>
+    <string name="hippo_pay_with_netbanking">Net Banking</string>
+    <string name="hippo_payfort">Payfort</string>
+    <string name="hippo_paytm">Paytm</string>
+    <string name="hippo_card">Card</string>
+    <string name="hippo_pay_with_paymob">Paymob</string>
+    <string name="hippo_pay_with_razorpay">Card/Net Banking</string>
+    <string name="float_label_start_chat">New Support Chat</string>
+    <string name="hippo_pay_with_paytm">Pay with Paytm</string>
+    <string name="hippo_stripe">Stripe</string>
+    <string name="hippo_fetching_payment_methods">Fetching payment methods...</string>
+    <string name="hippo_no_payment_methods">No payment method available</string>
+    <string name="hippo_you_have_no_chats">You have no chats</string>
+    <string name="hippo_clear_all_notification">Clear All</string>
+    <string name="hippo_find_an_expert">Find an Expert</string>
+    <string name="hippo_no_chat_init">Seems like you haven’t started on your Buddy journey yet, kick start it now!</string>
+    <string name="hippo_rating_review"><![CDATA[Rating & Review]]></string>
+    <string name="hippo_cancel_payment">Cancel Payment</string>
+    <string name="cancel_payment_text">Are you sure you want to cancel\nthe payment?</string>
+    <string name="hippo_no">No</string>
+    <string name="hippo_yes_cancel">Yes, Cancel</string>
+    <string name="hippo_payment_title">Payment</string>
+    <string name="hippo_payment_loader">Please wait \n Redirecting to the payment link</string>
+    <string name="fugu_menu_retry">Retry</string>
+    <string name="vw_no_video_app">No video app found</string>
+    <string name="hippo_chat_support">Chat Support</string>
+    <string name="hippo_submit">submit</string>
+    <string name="hippo_call">Call</string>
+    <string name="hippo_chat">Chat</string>
+    <string name="hippo_notifications_title">Notifications</string>
+    <string name="hippo_no_notifications">No Notifications</string>
+    <string name="hippo_notifications_deleted">Notification deleted</string>
+    <string name="hippo_chats">Chats</string>
+    <string name="hippo_notifications">Notifications</string>
+    <string name="hippo_current">Current</string>
+    <string name="hippo_past">Past</string>
+    <string name="hippo_yes">Yes</string>
+    <string name="hippo_logout_msg">Are you sure you want to logout?</string>
+    <string name="fugu_create_conversation">Create conversation</string>
+    <string name="hippo_no_internet_connected">No Internet Connected</string>
+    <string name="hippo_you">You</string>
+    <string name="hippo_sent_a_msg">sent a message</string>
+    <string name="fugu_voice">voice</string>
+    <string name="fugu_video">video</string>
+    <string name="hippo_call_with_you">call with you</string>
+    <string name="hippo_customer_missed_a">Customer missed a</string>
+    <string name="hippo_you_missed_a">You missed a</string>
+    <string name="hippo_call_with">call with</string>
+    <string name="hippo_call_ended">call ended</string>
+    <string name="hippo_the">The</string>
+    <string name="hippo_something_went_wrong">Something went wrong. Please try again</string>
+    <string name="hippo_file_already_in_queue">Already files in queue. Please wait</string>
+    <string name="hippo_grant_permission">Please grant permission</string>
+    <string name="hippo_pay_btnText">Pay</string>
+    <string name="hippo_error_msg_sending">Error in publishing message</string>
+    <string name="hippo_feature_no_supported">This feature not supported</string>
+    <string name="hippo_enter_number_only">Enter numeric values only</string>
+    <string name="hippo_enter_valid">Enter valid</string>
+    <string name="hippo_field_cant_empty">Field can\'t be empty</string>
+    <string name="hippo_fill_pre_field">Please fill previous fields</string>
+    <string name="hippo_enter_valid_price">Please enter valid price for item</string>
+    <string name="hippo_invalid_price">Invalid price</string>
+    <string name="hippo_alert">Alert!</string>
+    <string name="hippo_file_not_supported">File type not supported! Do you want to open with other apps?</string>
+    <string name="hippo_with_country_code">with country code</string>
+    <string name="hippo_enter_phone_number">Enter your phone</string>
+    <string name="hippo_enter_valid_email">Enter valid email</string>
+    <string name="hippo_enter_valid_phn_no">Enter valid phone number</string>
+    <string name="hippo_paid">- PAID -</string>
+    <string name="hippo_video">Video</string>
+    <string name="hippo_files">Files</string>
+    <string name="hippo_minimum_Multiselection">Please select atleast one option</string>
+    <string name="hippo_call_back">Call Back</string>
+    <string name="hippo_missed_call">Missed Call</string>
+    <string name="hippo_the_voice_call">The voice call</string>
+    <string name="hippo_the_video_call">The video call</string>
+    <string name="hippo_the_voice_call_ended">The voice call ended</string>
+    <string name="hippo_the_video_call_ended">The video call ended</string>
+    <string name="hippo_copy_to_clipboard">Copied to clipboard</string>
+    <string name="hippo_proceed_to_pay">Proceed to Pay</string>
+    <string name="hippo_all_agents_busy">All agents are busy right now, we\'ll connect you shortly</string>
+    <string name="hippo_writereview">Write a review</string>
+    <string name="hippo_payment_request">Payment Request</string>
+    <string name="hippo_usd">USD ($)</string>
+    <string name="hippo_select_a_plan">Select a plan</string>
+    <string name="hippo_secure_payment">100% secure payment</string>
+    <string name="hippo_audio_picker">Audio Picker</string>
+    <string name="hippo_image_picker">Image Picker</string>
+    <string name="hippo_doc_picker">Documents</string>
+    <string name="hippo_video_picker">Video Picker</string>
+    <string name="hippo_is_typing">is typing...</string>
+    <string name="hippo_conversation_closed">Conversation has been closed</string>
+    <string name="hippo_today">Today</string>
+    <string name="hippo_yesterday">Yesterday</string>
+    <string name="hippo_clear">Clear</string>
+    <string name="hippo_thanks_feedback">Thank you for your feedback!</string>
+
+    <!--New keys added here-->
+    <string name="hippo_settings">SETTINGS</string>
+    <string name="hippo_allow_permission">Please allow App to be shown on the lock screen so that calls can work properly.</string>
+    <string name="hippo_not_now">NOT NOW</string>
+    <string name="hippo_message_not_allow">You are not allowed to share personal details.</string>
+
+    <string-array name="FuguCountryCodes">
+    <item>93,AF</item>
+    <item>355,AL</item>
+    <item>213,DZ</item>
+    <item>376,AD</item>
+    <item>244,AO</item>
+    <item>672,AQ</item>
+    <item>672,AQ</item>
+    <item>54,AR</item>
+    <item>374,AM</item>
+    <item>297,AW</item>
+    <item>61,AU</item>
+    <item>43,AT</item>
+    <item>994,AZ</item>
+    <item>973,BH</item>
+    <item>880,BD</item>
+    <item>375,BY</item>
+    <item>32,BE</item>
+    <item>501,BZ</item>
+    <item>229,BJ</item>
+    <item>975,BT</item>
+    <item>591,BO</item>
+    <item>387,BA</item>
+    <item>267,BW</item>
+    <item>55,BR</item>
+    <item>673,BN</item>
+    <item>359,BG</item>
+    <item>226,BF</item>
+    <item>95,MM</item>
+    <item>257,BI</item>
+    <item>855,KH</item>
+    <item>237,CM</item>
+    <item>1,CA</item>
+    <item>238,CV</item>
+    <item>236,CF</item>
+    <item>235,TD</item>
+    <item>56,CL</item>
+    <item>86,CN</item>
+    <item>61,CX</item>
+    <item>61,CC</item>
+    <item>57,CO</item>
+    <item>269,KM</item>
+    <item>242,CG</item>
+    <item>243,CD</item>
+    <item>682,CK</item>
+    <item>506,CR</item>
+    <item>385,HR</item>
+    <item>53,CU</item>
+    <item>357,CY</item>
+    <item>420,CZ</item>
+    <item>45,DK</item>
+    <item>253,DJ</item>
+    <item>670,TL</item>
+    <item>593,EC</item>
+    <item>20,EG</item>
+    <item>503,SV</item>
+    <item>240,GQ</item>
+    <item>291,ER</item>
+    <item>372,EE</item>
+    <item>251,ET</item>
+    <item>500,FK</item>
+    <item>298,FO</item>
+    <item>679,FJ</item>
+    <item>358,FI</item>
+    <item>33,FR</item>
+    <item>689,PF</item>
+    <item>241,GA</item>
+    <item>220,GM</item>
+    <item>995,GE</item>
+    <item>49,DE</item>
+    <item>233,GH</item>
+    <item>350,GI</item>
+    <item>30,GR</item>
+    <item>299,GL</item>
+    <item>502,GT</item>
+    <item>224,GN</item>
+    <item>245,GW</item>
+    <item>592,GY</item>
+    <item>509,HT</item>
+    <item>504,HN</item>
+    <item>852,HK</item>
+    <item>36,HU</item>
+    <item>91,IN</item>
+    <item>62,ID</item>
+    <item>98,IR</item>
+    <item>964,IQ</item>
+    <item>353,IE</item>
+    <item>44,IM</item>
+    <item>972,IL</item>
+    <item>39,IT</item>
+    <item>225,CI</item>
+    <item>81,JP</item>
+    <item>962,JO</item>
+    <item>7,KZ</item>
+    <item>254,KE</item>
+    <item>686,KI</item>
+    <item>965,KW</item>
+    <item>996,KG</item>
+    <item>856,LA</item>
+    <item>371,LV</item>
+    <item>961,LB</item>
+    <item>266,LS</item>
+    <item>231,LR</item>
+    <item>218,LY</item>
+    <item>423,LI</item>
+    <item>370,LT</item>
+    <item>352,LU</item>
+    <item>853,MO</item>
+    <item>389,MK</item>
+    <item>261,MG</item>
+    <item>265,MW</item>
+    <item>60,MY</item>
+    <item>960,MV</item>
+    <item>223,ML</item>
+    <item>356,MT</item>
+    <item>692,MH</item>
+    <item>222,MR</item>
+    <item>230,MU</item>
+    <item>262,YT</item>
+    <item>52,MX</item>
+    <item>691,FM</item>
+    <item>373,MD</item>
+    <item>377,MC</item>
+    <item>976,MN</item>
+    <item>382,ME</item>
+    <item>212,MA</item>
+    <item>258,MZ</item>
+    <item>264,NA</item>
+    <item>674,NR</item>
+    <item>977,NP</item>
+    <item>31,NL</item>
+    <item>599,AN</item>
+    <item>687,NC</item>
+    <item>64,NZ</item>
+    <item>505,NI</item>
+    <item>227,NE</item>
+    <item>234,NG</item>
+    <item>683,NU</item>
+    <item>850,KP</item>
+    <item>47,NO</item>
+    <item>968,OM</item>
+    <item>92,PK</item>
+    <item>680,PW</item>
+    <item>507,PA</item>
+    <item>675,PG</item>
+    <item>595,PY</item>
+    <item>51,PE</item>
+    <item>63,PH</item>
+    <item>870,PN</item>
+    <item>48,PL</item>
+    <item>351,PT</item>
+    <item>1,PR</item>
+    <item>974,QA</item>
+    <item>40,RO</item>
+    <item>7,RU</item>
+    <item>250,RW</item>
+    <item>590,BL</item>
+    <item>685,WS</item>
+    <item>378,SM</item>
+    <item>239,ST</item>
+    <item>966,SA</item>
+    <item>221,SN</item>
+    <item>381,RS</item>
+    <item>248,SC</item>
+    <item>232,SL</item>
+    <item>65,SG</item>
+    <item>421,SK</item>
+    <item>386,SI</item>
+    <item>677,SB</item>
+    <item>252,SO</item>
+    <item>27,ZA</item>
+    <item>82,KR</item>
+    <item>34,ES</item>
+    <item>94,LK</item>
+    <item>290,SH</item>
+    <item>508,PM</item>
+    <item>249,SD</item>
+    <item>597,SR</item>
+    <item>268,SZ</item>
+    <item>46,SE</item>
+    <item>41,CH</item>
+    <item>963,SY</item>
+    <item>886,TW</item>
+    <item>992,TJ</item>
+    <item>255,TZ</item>
+    <item>66,TH</item>
+    <item>228,TG</item>
+    <item>690,TK</item>
+    <item>676,TO</item>
+    <item>216,TN</item>
+    <item>90,TR</item>
+    <item>993,TM</item>
+    <item>688,TV</item>
+    <item>971,AE</item>
+    <item>256,UG</item>
+    <item>44,GB</item>
+    <item>380,UA</item>
+    <item>598,UY</item>
+    <item>1,US</item>
+    <item>998,UZ</item>
+    <item>678,VU</item>
+    <item>39,VA</item>
+    <item>58,VE</item>
+    <item>84,VN</item>
+    <item>681,WF</item>
+    <item>967,YE</item>
+    <item>260,ZM</item>
+    <item>263,ZW</item>
+</string-array>
+</resources>

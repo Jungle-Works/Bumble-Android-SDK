@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fugu_action_bar_bg">#5b9e0e</color>
+    <color name="fugu_action_bar_text">#ffffff</color>
+    <color name="fugu_bg_msg_you">#ffffff</color>
+    <color name="fugu_bg_msg_from">#e8ecfc</color>
+    <color name="fugu_message_read">#5b9e0e</color>
+
+    <color name="fugu_primary_text_msg_you">#2c2333</color>
+    <color name="fugu_primary_text_msg_from">#2c2333</color>
+    <color name="fugu_secondary_text_msg_you">#8e8e8e</color>
+
+    <!--change for doctor-->
+    <!--<color name="fugu_primary_text_msg_you">#ffffff</color>
+    <color name="fugu_primary_text_msg_from">#000000</color>
+    <color name="fugu_secondary_text_msg_you">#ffffff</color>-->
+    
+    <color name="multi_color">#f8f8f8</color>
+
+    <color name="fugu_secondary_text_msg_from">#8e8e8e</color>
+    <color name="fugu_secondary_text_msg_from_name">#627de3</color>
+    <color name="fugu_drawable_color">#8c8c8c</color>
+    <color name="fugu_text_color_primary">#2c2333</color>
+    <color name="fugu_theme_color_primary_dark">#5b9e0e</color>
+    <color name="fugu_channel_date_text">#88838c</color>
+
+    <color name="fugu_border_color">#dce0e6</color>
+    <color name="fugu_chat_date_text">#51445c</color>
+    <color name="fugu_theme_color_primary">#5b9e0e</color>
+    <color name="fugu_theme_color_primary_pressed">#99627de3</color>
+    <color name="fugu_theme_color_secondary">#6cc64d</color>
+    <color name="fugu_type_message_bg">#ffffff</color>
+    <color name="fugu_type_message_hint">#8e8e8e</color>
+    <color name="fugu_type_message_text">#2c2333</color>
+    <color name="fugu_channel_bg">#ffffff</color>
+    <color name="fugu_white_50">#33ffffff</color>
+    <color name="fugu_white_70">#B3FFFFFF</color>
+    <color name="fugu_blur_black">#20000000</color>
+    <color name="fugu_action_divider_color">#979797</color>
+
+    <color name="hippoColorPrimaryDark">#5b9e0e</color>
+
+
+    <!--> unread message counter text and background colors<!-->
+    <color name="hippo_white">#FFFFFF</color>
+    <color name="hippo_red">#dd171e</color>
+    <color name="hippo_orange">#FFFF00</color>
+    <!-->End Here<!-->
+
+    <color name="fugu_transparent">#44949494</color>
+    <color name="fugu_attachment_dialog_text">#3f3f3f</color>
+    <color name="fugu_attachment_dialog_text_pressed">#773f3f3f</color>
+    <color name="fugu_connecting">#FFA500</color>
+    <color name="fugu_not_connected">#FF0000</color>
+    <color name="fugu_connected">#00FF00</color>
+
+    <color name="fugu_closed_chat_text_color">#564f5c</color>
+    <color name="fugu_overlay_green_95">#F256bb33</color>
+    <color name="fugu_read_chat_text_color">#88838c</color>
+    <color name="fugu_unassigned_color">#ed7d00</color>
+    <color name="fugu_tag_color">#e4e4ed</color>
+    <color name="fugu_tagged_color">#839bf1</color>
+    <color name="fugu_typing_color">#dce0e6</color>
+    <color name="fuguChatBackground">#f8f9ff</color>
+    <color name="fugu_overlay_black_95">#F251445c</color>
+    <color name="fugu_overlay_yellow_95">#F2e07905</color>
+    <color name="hippo_tag_color">#e4e4ed</color>
+    <color name="hippo_transparent">#0000</color>
+    <color name="fugu_divider_ea">#eaeaea</color>
+    <color name="hippo_black">#000000</color>
+    <color name="fugu_black_50">#80000000</color>
+    <color name="fugu_green">#6CC64D</color>
+    <color name="fugu_assign_color">#f0a653</color>
+
+    <color name="fugu_list_even">#AAAAAA</color>
+    <color name="fugu_list_odd">#E1E2E2</color>
+    <color name="fugu_list_selected">#455FB6</color>
+    <color name="fugu_list_header">#99979C</color>
+
+    <color name="fugu_disable_color">#882c2333</color>
+    <color name="fugu_support_text">#596161</color>
+    <color name="fugu_support_description">#858585</color>
+
+    <color name="hippo_feedback_boarder">#979797</color>
+    <color name="hippo_rated_background">#f5f5f5</color>
+    <color name="fugu_white">#ffffff</color>
+    <color name="divider_color">#aaaaaa</color>
+
+
+    <color name="vw_BgToolBar">#373B3E</color>
+    <color name="vw_BgRv">#191919</color>
+    <color name="vw_BgItem">#353535</color>
+    <color name="vw_ShadowItem">#94333232</color>
+    <color name="vw_BgRvFileDivider">#EEEEEE</color>
+    <color name="black_opaque_bar">#99000000</color>
+    <color name="hippo_broadcast_name">#2296ff</color>
+    <color name="hippo_blue">#0000FF</color>
+    <color name="gray_dark">#805F5F5F</color>
+
+
+    <color name="tabSelectedIconColor">#000000</color>
+    <color name="tabUnselectedIconColor">#000000</color>
+
+
+    <color name="start_color">#e1f0ff</color>
+    <color name="center_color">#e1f0ff</color>
+    <color name="end_color">#e1f0ff</color>
+
+    <color name="special_bg">#ecf2f7</color>
+    <color name="color_self">#f2f5f8</color>
+    <color name="hippo_multi_boarder">#3bd5b2</color>
+
+    <color name="hippo_unread_circle">#f44043</color>
+    <color name="bg_float_action_default">#1A73E8</color>
+    <color name="hippo_tab_indicator_color">#5b9f0d</color>
+    <color name="hippo_no_conversation">#8f9398</color>
+    <color name="fugu_chat_bg">#ffffff</color>
+    <color name="hippo_clear_all">#5f5f5f</color>
+    <color name="hippo_chat_date">#5f5f5f</color>
+
+    <color name="hippo_notification_bg">#f4f5f6</color>
+    <color name="hippo_notification_header">#000000</color>
+    <color name="hippo_notification_message">#5a5a5a</color>
+    <color name="hippo_notification_time">#717171</color>
+    <color name="hippo_notification_read_more">#5b9f0d</color>
+
+    <color name="hippo_no_chat_btn">#ffffff</color>
+    <color name="hippo_no_chat_btn_bg">#5b9e0e</color>
+
+    <color name="rating_divider">#efefef</color>
+    <color name="hippo_rating_thanks">#e1f0ff</color>
+    <color name="hippo_rating_user">#4a4a4a</color>
+    <color name="hippo_rating_text">#000000</color>
+
+    <color name="hippo_write_review">#dee4e8</color>
+
+</resources>

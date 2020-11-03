@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/llayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <View
+        android:id="@+id/fakeView"
+        android:layout_width="32dp"
+        android:layout_height="match_parent"
+        android:background="@color/hippo_transparent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="140dp"
+        android:layout_height="190dp"
+        android:layout_margin="5dp"
+        app:cardElevation="2dp">
+
+        <RelativeLayout
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/imageLayout"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/userImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop" />
+
+
+
+                <LinearLayout
+                    android:id="@+id/info_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="bottom"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/drawable_bg_card_name"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingStart="@dimen/fugu_margin_10"
+                        android:paddingLeft="@dimen/fugu_margin_10"
+                        android:paddingBottom="@dimen/fugu_margin_1">
+
+                        <com.bumble.Utils.RatingBarMenuFeedback
+                            android:id="@+id/rating_bar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:numStars="5"
+                            android:rating="3"
+                            android:visibility="gone"
+                            app:halfStars="true"
+                            app:maxStars="5"
+                            app:onlyForDisplay="true"
+                            app:displayText="false"
+                            app:starOff="@drawable/ic_menu_feedback_star_off"
+                            app:starOn="@drawable/ic_menu_feedback_star_on"/>
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/agentName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:text="Dr. B.R. SAMUEL"
+                            android:textColor="@color/hippo_white"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <RelativeLayout
+                            android:id="@+id/starLayout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <RatingBar
+                                android:id="@+id/ratingBar2"
+                                style="@style/Widget.AppCompat.RatingBar.Small"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:rating="1"
+                                android:numStars="1"
+                                android:stepSize="0.1"
+                                android:theme="@style/RatingBar" />
+
+                            <TextView
+                                android:id="@+id/starText"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@+id/ratingBar2"
+                                android:textStyle="bold"
+                                android:textColor="@color/hippo_white"/>
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/info"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="@dimen/fugu_margin_3"
+                        android:layout_marginRight="@dimen/fugu_padding_10"
+                        android:background="@drawable/ic_info_outline"
+                        android:visibility="visible" />
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/agentDescLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageLayout"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <com.bumble.Utils.showmoretextview.ShowMoreTextView
+                    android:id="@+id/agentDesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/fugu_text_color_primary"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+

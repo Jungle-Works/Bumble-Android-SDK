@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bumble.Utils.swipetoshow.SwipeHolder xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <com.bumble.Utils.swipetoshow.HideContentHolder
+            android:layout_width="@dimen/fugu_dp_60"
+            android:layout_height="match_parent">
+
+        <Button
+                android:id="@+id/clearBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/fugu_margin_10"
+                android:layout_marginBottom="@dimen/fugu_margin_2"
+                android:background="@color/hippo_red"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:text="@string/hippo_clear"
+                android:textColor="#ffffff" />
+
+    </com.bumble.Utils.swipetoshow.HideContentHolder>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/hippo_transparent"
+            android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/fugu_margin_10"
+                android:layout_marginTop="@dimen/fugu_margin_10"
+                android:layout_marginRight="@dimen/fugu_margin_10"
+                android:layout_marginBottom="@dimen/fugu_margin_2"
+                android:visibility="visible"
+                app:cardElevation="0dp"
+                app:cardCornerRadius="@dimen/_6sdp">
+
+            <LinearLayout
+                    android:id="@+id/mainLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_12sdp"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:id="@+id/tvTitle"
+                        style="@style/CustomTextAppearance.Semibold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Title message"
+                        android:textColor="@color/hippo_notification_header"
+                        android:textSize="@dimen/fugu_text_size_normal" />
+
+                <TextView
+                        android:id="@+id/tvDescription"
+                        style="@style/CustomTextAppearance.TitilliumWeb"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_6sdp"
+                        android:textColor="@color/hippo_notification_message"
+                        android:textSize="@dimen/hippo_text_normal"
+                        android:visibility="gone" />
+
+                <TextView
+                        android:id="@+id/tvMsg"
+                        style="@style/CustomTextAppearance.TitilliumWeb"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="4"
+                        android:layout_marginTop="@dimen/_6sdp"
+                        android:textColor="@color/hippo_notification_message"
+                        android:textSize="@dimen/hippo_text_normal"
+                        android:visibility="visible" />
+
+
+                <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_8sdp" >
+
+                    <TextView
+                            android:id="@+id/tvDateTime"
+                            style="@style/CustomTextAppearance.TitilliumWeb"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:text="12 Dec, 2019"
+                            android:textColor="@color/hippo_notification_time"
+                            android:textSize="@dimen/fugu_text_size_small" />
+
+
+                    <TextView
+                            android:id="@+id/readStatus"
+                            style="@style/CustomTextAppearance.TitilliumWeb"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:gravity="top"
+                            android:minHeight="1dp"
+                            android:text="...read more"
+                            android:textColor="@color/hippo_notification_read_more" />
+
+
+                </RelativeLayout>
+
+
+                <ImageView
+                        android:id="@+id/ivImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_130sdp"
+                        android:layout_marginTop="@dimen/_6sdp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:visibility="gone" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+</com.bumble.Utils.swipetoshow.SwipeHolder>
+
+
+

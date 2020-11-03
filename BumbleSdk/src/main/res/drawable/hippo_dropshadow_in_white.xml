@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="#10CCCCCC" />
+            <padding android:top="@dimen/hippo_dropshadow_width" android:right="@dimen/hippo_dropshadow_width" android:bottom="@dimen/hippo_dropshadow_width" android:left="@dimen/hippo_dropshadow_width" />
+            <corners android:radius="@dimen/hippo_button_corner_radius"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <solid android:color="#20CCCCCC" />
+            <padding android:top="@dimen/hippo_dropshadow_width" android:right="@dimen/hippo_dropshadow_width" android:bottom="@dimen/hippo_dropshadow_width" android:left="@dimen/hippo_dropshadow_width" />
+            <corners android:radius="@dimen/hippo_button_corner_radius"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <solid android:color="#40CCCCCC" />
+            <padding android:top="@dimen/hippo_dropshadow_width" android:right="@dimen/hippo_dropshadow_width" android:bottom="@dimen/hippo_dropshadow_width" android:left="@dimen/hippo_dropshadow_width" />
+            <corners android:radius="@dimen/hippo_button_corner_radius"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <solid android:color="#50CCCCCC" />
+            <padding android:top="@dimen/hippo_dropshadow_width" android:right="@dimen/hippo_dropshadow_width" android:bottom="@dimen/hippo_dropshadow_width" android:left="@dimen/hippo_dropshadow_width" />
+            <corners android:radius="@dimen/hippo_button_corner_radius"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <solid android:color="#60CCCCCC" />
+            <padding android:top="@dimen/hippo_dropshadow_width" android:right="@dimen/hippo_dropshadow_width" android:bottom="@dimen/hippo_dropshadow_width" android:left="@dimen/hippo_dropshadow_width" />
+            <corners android:radius="@dimen/hippo_button_corner_radius"/>
+        </shape>
+    </item>
+
+    <!-- content background -->
+    <item
+        android:left="@dimen/hippo_dropshadow_width_minus"
+        android:right="@dimen/hippo_dropshadow_width_minus"
+        android:top="@dimen/hippo_dropshadow_width_minus"
+        android:bottom="@dimen/hippo_dropshadow_width_minus"
+        >
+        <shape>
+            <solid android:color="@color/hippo_white"/>
+            <corners android:radius="@dimen/hippo_button_corner_radius"/>
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,132 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="fugu_activity_horizontal_margin">16dp</dimen>
+    <dimen name="fugu_activity_vertical_margin">16dp</dimen>
+
+    <dimen name="fugu_elevation_4">4dp</dimen>
+    <dimen name="lineSpacingExtra">0.1sp</dimen>
+    <dimen name="fugu_text_size_tiny">10sp</dimen>
+    <dimen name="fugu_text_size_11">11sp</dimen>
+    <dimen name="fugu_text_size_small">12sp</dimen>
+    <dimen name="fugu_text_size_medium">15sp</dimen>
+    <dimen name="fugu_text_size_normal">16sp</dimen>
+    <dimen name="fugu_text_size_large">18sp</dimen>
+    <dimen name="fugu_text_size_very_large">20sp</dimen>
+    <dimen name="fugu_text_size_extra_large">25sp</dimen>
+    <dimen name="fugu_text_size_title_normal">30sp</dimen>
+    <dimen name="fugu_text_size_title_big">34sp</dimen>
+    <dimen name="fugu_text_size_intermediate">13.3sp</dimen>
+    <dimen name="fugu_text_size_big">14.4sp</dimen>
+
+    <dimen name="fugu_margin_2">2dp</dimen>
+    <dimen name="fugu_margin_3">3dp</dimen>
+    <dimen name="fugu_margin_5">5dp</dimen>
+    <dimen name="fugu_margin_4">4dp</dimen>
+    <dimen name="fugu_margin_7">7dp</dimen>
+    <dimen name="fugu_margin_10">10dp</dimen>
+    <dimen name="fugu_margin_15">15dp</dimen>
+    <dimen name="fugu_margin_20">20dp</dimen>
+    <dimen name="fugu_margin_30">30dp</dimen>
+
+    <dimen name="fugu_padding_3">3dp</dimen>
+    <dimen name="fugu_padding_5">5dp</dimen>
+    <dimen name="fugu_padding_10">10dp</dimen>
+    <dimen name="fugu_padding_12">12dp</dimen>
+    <dimen name="fugu_padding_15">15dp</dimen>
+    <dimen name="fugu_padding_20">20dp</dimen>
+    <dimen name="fugu_padding_35">35dp</dimen>
+
+    <dimen name="fugu_size_20">20dp</dimen>
+    <dimen name="fugu_size_25">25dp</dimen>
+    <dimen name="fugu_size_70">70dp</dimen>
+    <dimen name="fugu_size_2">2dp</dimen>
+    <dimen name="corner_radius_normal">6dp</dimen>
+    <dimen name="fugu_message_corner_radius_normal">7.5dp</dimen>
+    <dimen name="fugu_message_corner_radius_small">5dp</dimen>
+    <dimen name="fugu_border_width">1dp</dimen>
+    <dimen name="fugu_dp_250">250dp</dimen>
+    <dimen name="fugu_dp_240">240dp</dimen>
+    <dimen name="fugu_dp_40">40dp</dimen>
+    <dimen name="fugu_dp_1">1dp</dimen>
+    <dimen name="fugu_dp_6">6dp</dimen>
+    <dimen name="fugu_dp_60">60dp</dimen>
+    <dimen name="fugu_dp_17">17dp</dimen>
+    <dimen name="height_ll_time">75dp</dimen>
+    <dimen name="fugu_dp_8">8dp</dimen>
+    <dimen name="fugu_dp_50">50dp</dimen>
+    <dimen name="fugu_dp_55">55dp</dimen>
+    <dimen name="fugu_padding_8">7dp</dimen>
+    <dimen name="fugu_padding_4">4dp</dimen>
+    <dimen name="fugu_padding_7">7dp</dimen>
+
+    <!-- Fugu custom action -->
+    <dimen name="fugu_custom_action_image_height">150dp</dimen>
+    <dimen name="fugu_custom_action_image_width">300dp</dimen>
+    <dimen name="fugu_card_inset">0dp</dimen>
+    <dimen name="fugu_action_divider_size">0.5dp</dimen>
+    <dimen name="fugu_margin_12">12dp</dimen>
+    <dimen name="fugu_margin_13">13dp</dimen>
+    <dimen name="fugu_spacing_dimin">3.5dp</dimen>
+    <dimen name="fugu_margin_6">6dp</dimen>
+
+    <dimen name="fugu_name_width">170dp</dimen>
+    <dimen name="fugu_name_width_unClose">200dp</dimen>
+    <dimen name="fugu_margin_35">35dp</dimen>
+    <dimen name="fugu_margin_17">17dp</dimen>
+    <dimen name="fugu_margin_14">14dp</dimen>
+    <dimen name="fugu_margin_60">60dp</dimen>
+    <dimen name="fugu_size_57">57dp</dimen>
+    <dimen name="fugu_margin_45">45dp</dimen>
+    <dimen name="fugu_margin_50">50dp</dimen>
+
+    <dimen name="fugu_min_height">60dp</dimen>
+    <dimen name="hippo_button_width">200dp</dimen>
+    <dimen name="hippo_button_height">50dp</dimen>
+    <dimen name="fugu_margin_8">8dp</dimen>
+    <dimen name="fugu_size_40">40dp</dimen>
+    <dimen name="fugu_padding_6">6dp</dimen>
+    <dimen name="hippo_button_corner_radius">3dp</dimen>
+    <dimen name="hippo_dropshadow_width">0.5dp</dimen>
+    <dimen name="hippo_dropshadow_width_minus">0.5dp</dimen>
+
+    <dimen name="hippo_cp_dialog_width">200dp</dimen>
+    <dimen name="hippo_cp_dialog_height">300dp</dimen>
+    <dimen name="fugu_dp_65">65dp</dimen>
+    <dimen name="fugu_margin_40">40dp</dimen>
+    <dimen name="fugu_text_size_14">14sp</dimen>
+    <dimen name="fugu_margin_half">0.5dp</dimen>
+    <dimen name="fugu_margin_1">1dp</dimen>
+    <dimen name="fugu_padding_1">1dp</dimen>
+    <dimen name="hippo_margin_16">12dp</dimen>
+    <dimen name="fugu_margin_55">55dp</dimen>
+    <dimen name="fugu_dp_35">35dp</dimen>
+
+    <dimen name="hippo_text_normal_bold">14sp</dimen>
+    <dimen name="hippo_text_normal">14sp</dimen>
+    <dimen name="hippo_text_title">12sp</dimen>
+    <dimen name="hippo_text_time">10sp</dimen>
+
+
+    <dimen name="header_view_start_margin_left">16dp</dimen>
+    <dimen name="header_view_end_margin_left">55dp</dimen>
+    <dimen name="header_view_end_margin_right">14dp</dimen>
+    <dimen name="header_view_start_margin_bottom">14dp</dimen>
+    <dimen name="header_view_start_text_size">26sp</dimen>
+    <dimen name="header_view_end_text_size">18sp</dimen>
+
+    <!--<dimen name="header_view_start_margin_left">16dp</dimen>
+    <dimen name="header_view_end_margin_left">40dp</dimen>
+    <dimen name="header_view_end_margin_right">14dp</dimen>
+    <dimen name="header_view_start_margin_bottom">14dp</dimen>
+    <dimen name="header_view_start_text_size">32sp</dimen>
+    <dimen name="header_view_end_text_size">18sp</dimen>-->
+
+    <dimen name="fugu_padding_left">10dp</dimen>
+    <dimen name="fugu_padding_right">10dp</dimen>
+
+    <dimen name="padding_fab_default">16dp</dimen>
+    <dimen name="padding_text_icon_default">8dp</dimen>
+    <dimen name="text_size_action_button_default">16sp</dimen>
+    <dimen name="card_elevation">3dp</dimen>
+
+</resources>

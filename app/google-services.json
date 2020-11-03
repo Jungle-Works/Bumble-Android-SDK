@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "545016309981",
+    "firebase_url": "https://bumbledemo-2e12b.firebaseio.com",
+    "project_id": "bumbledemo-2e12b",
+    "storage_bucket": "bumbledemo-2e12b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545016309981:android:8946d9858bd3fa2d101334",
+        "android_client_info": {
+          "package_name": "com.bumble.react"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545016309981-lba7ksu2mlhk8dj7gputsb1hcvdk8eb9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo5wi8Rlg-VgQyHTeKAduNIVV1gegcHfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545016309981-lba7ksu2mlhk8dj7gputsb1hcvdk8eb9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "545016309981-7uhsfsf073anomnfkrvc7tev0kpmjbt2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bumble.pod"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545016309981:android:fc37c6dbc5754e74101334",
+        "android_client_info": {
+          "package_name": "com.test.bumble"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545016309981-lba7ksu2mlhk8dj7gputsb1hcvdk8eb9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo5wi8Rlg-VgQyHTeKAduNIVV1gegcHfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545016309981-lba7ksu2mlhk8dj7gputsb1hcvdk8eb9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "545016309981-7uhsfsf073anomnfkrvc7tev0kpmjbt2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bumble.pod"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

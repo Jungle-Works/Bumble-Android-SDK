@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:right="10dp">
+        <shape android:shape="rectangle" >
+            <padding android:top="@dimen/fugu_margin_half" android:right="@dimen/fugu_margin_half" android:bottom="@dimen/fugu_margin_half" android:left="@dimen/fugu_margin_half" />
+            <solid android:color="#dce0e6" />
+            <corners android:radius="4dp" />
+        </shape>
+    </item>
+    <item android:right="10dp">
+        <shape android:shape="rectangle" >
+            <solid android:color="#FEF8E3" />
+            <corners android:radius="4dp" />
+        </shape>
+    </item>
+</layer-list>
